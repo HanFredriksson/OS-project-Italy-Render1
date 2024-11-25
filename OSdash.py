@@ -47,6 +47,8 @@ color_map = {"Gold medals":"gold",
 
 app = dash.Dash(__name__)
 
+server = app.server
+
  # Layout with dropdowns and checklists to let the user filter and plot graphs
 app.layout = html.Div([
     html.H1("OS Data Analyser",style={'textAlign':'center'}),
