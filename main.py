@@ -8,7 +8,7 @@ from plotly.subplots import make_subplots
 
 
 
-os_data = OsDataFetcher("../Projekt-OS/Data/athlete_events.csv", "Name")
+os_data = OsDataFetcher("../Data/athlete_events.csv", "Name")
 
 # Variables with menu options, filters, and color maps.
 picker = {"Italy": "Italy", "Sports": "Sports"}
